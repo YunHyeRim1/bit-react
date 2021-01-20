@@ -1,14 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+/* import Hello from './hello/Hello'
+import Calculator from './calc/Calculator'
+import NumberProvider from './calc/NumberProvider'  */
+import ToDoInput from './todo/ToDoInput'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-              안녕 리액트 !!
-      </header>
-    </div>
-  );
-}
+const App = () => (<ToDoInput/>)
+
+/* const App = () => (<Hello/>) */
 
 export default App;
